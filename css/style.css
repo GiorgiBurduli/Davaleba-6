@@ -1,0 +1,124 @@
+body {
+ background-image: url("https://wallup.net/wp-content/uploads/2016/02/18/269395-minimalism-grass-nature-sky-simple_background-mist.jpg");
+ background-color: #cccccc;
+}
+
+.div 1{
+   position: relative;
+}
+
+.dino {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 788px;
+   left: 400px;
+   position: relative;
+   animation: winwasvla 11s infinite;
+
+}
+
+
+@keyframes winwasvla {
+  75% {left: 960px;}
+  85% {left: 960px;}
+  95% {left: 960px;}
+  100% {left: 960px;}
+
+}
+
+.wifi {
+   width: 80px;
+   height: 80px;
+   transform: rotate(180deg);
+   position: absolute;
+   top: 50px;
+   left: 1510px;
+   position: relative;
+   animation: chamovardna 11s infinite;
+
+
+
+
+}
+
+@keyframes chamovardna {
+   75% {left: 950px; top: 700px;}
+   85% {left: 950px; top: 700px;}
+   95% {left: 950px; top: 700px;}
+   100% {left: 950px; top: 700px;}
+}
+
+.afetqeba {
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   left: 960px;
+   top: 700px;
+   opacity: 0%;
+   animation: explosion 11s infinite;
+}
+
+@keyframes explosion {
+   50% {opacity: 0%;}
+   60% {opacity: 0%;}
+   78% {opacity: 0%;}
+   90% {opacity: 100%;}
+   95% {opacity: 100%;}
+   100% {opacity: 100%;}
+}
+
+.div2 {
+   display: inline-block;
+   position: relative;
+   opacity: 0%;
+   animation: connected 12s infinite;
+
+}
+
+.wifilogo {
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   left: 600px;
+
+
+}
+
+.p1 {
+   display: inline-block;
+   font-family: 'Sigmar One', cursive;
+   font-size: 80px;
+   position: absolute;
+   left: 870px;
+   top: 40px;
+}
+
+.p2 {
+   display: inline-block;
+   font-family: 'Sigmar One', cursive;
+   color: lightcyan;
+   font-size: 40px;
+   position: absolute;
+   left: 870px;
+   top: 140px;
+
+
+
+}
+
+
+
+@keyframes connected {
+   50% {opacity: 0%;}
+   60% {opacity: 0%;}
+   78% {opacity: 0%;}
+   90% {opacity: 100%;}
+   95% {opacity: 100%;}
+   100% {opacity: 100%;}
+}
+
+
+
+
+
